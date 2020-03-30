@@ -3,7 +3,7 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/mod2sol/image/bgimg.jpg);
+    background-image: url(https://raw.githubusercontent.com/devji08/coursera-test/master/mod2sol/image/bgimg.jpg);
 }
 .header {
     font-size: 2em;
