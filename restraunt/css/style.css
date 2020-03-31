@@ -5,14 +5,17 @@ body {
     background-color: #f6b319;
 }
 #logo-img {
-    background: url('../images/hotel.jpg') no-repeat;
+    background: url('../img/hotel.jpg') no-repeat;
     width: 150px;
     height: 150px;
     margin: 10px 15px 10px 0px;
 }
+.navbar-header {
+    width: 100%;
+}
 .navbar-brand h1 {
     color: #557c3e;
-    font-size: 1.5em;
+    font-size: 1.44em;
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
@@ -31,4 +34,40 @@ body {
 .navbar-brand p span {
     vertical-align: middle;
     font-weight: 600;
+}
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list li {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#nav-list a {
+    color: #951c49;
+}
+#nav-list li:hover, #nav-list a:hover {
+    background: #E7E7E7;
+    text-decoration: none;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+#phone {
+    margin-top: 0px;
+    /* vertical-align: text-top; */
+}
+#phone a {
+    text-align: right;
+    /* vertical-align: 500%; */
+    padding-bottom: 0;
+}
+#phone  span {
+    color: #557c3e;
+}
+.pad5 {
+    padding-top: 18px;
+}
+.col-md-6, .col-md-7, .col-md-4,.col-md-5{
+    padding: 0;
 }
