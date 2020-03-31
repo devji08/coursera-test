@@ -7874,7 +7874,7 @@ button.bg-dark:focus {
 }
 
 .float-left {
-  float: left !important;
+  float: left;
 }
 
 .float-right {
