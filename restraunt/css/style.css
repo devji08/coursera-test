@@ -45,6 +45,7 @@ body {
 }
 #nav-list a {
     color: #951c49;
+    font-weight: bold;
 }
 #nav-list li:hover, #nav-list a:hover {
     /* background: #E7E7E7; */
