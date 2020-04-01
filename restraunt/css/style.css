@@ -68,6 +68,106 @@ body {
 .pad5 {
     padding-top: 18px;
 }
-.col-md-6, .col-md-7, .col-md-4,.col-md-5, .col-md-8, .col-sm-8, .col-sm-4{
+@media (max-width:767px) {
+    .navbar-brand {
+        font-size: 4.5vw;
+    }
+    #nav-list a{
+        font-size: 1.2em;
+    }
+    #nav-list a span{
+        font-size: 1em;
+        margin-right: 5px;
+    }
+    .panel-footer section {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .panel-footer section hr {
+        width: 50%;
+    }
+}
+#call-button {
+    background-color: #f6b319;
+    text-align: center;
+    margin: 5px;
+}
+#we-deliver {
+    color: rgb(255, 235, 168);
+    text-align: center;
+    font-size: .7em;
+}
+.container .jumbotron {
+    margin-top: 30px;
     padding: 0;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+}
+#menu-tile, #special-tile, #map-tile {
+    height:250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+}
+#menu-tile:hover, #special-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile {
+    background: url("../img/menu.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#special-tile {
+    background: url("../img/special.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#map-tile {
+    z-index: 1;
+}
+#menu-tile span, #special-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .75;
+    z-index: 2;
+}
+
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #222;
+    border-top: 0;
+    color: #fff;
+}
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+#hour, #address {
+    line-height: 2;
+}
+#hour > span, #address > span {
+    font-size: 1.3em;
+}
+#address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+}
+#testimonials {
+    font-style: italic;
+}
+#testimonials p:nth-child(2) {
+    margin-top: 25px;
+}
+hr {
+    border: 1px solid white;
 }
