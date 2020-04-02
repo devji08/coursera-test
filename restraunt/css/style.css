@@ -1,5 +1,6 @@
 body {
     background-color: brown;
+    color: #fff;
 }
 #header-nav {
     background-color: #f6b319;
@@ -54,6 +55,14 @@ body {
 #nav-list a span {
     font-size: 1.8em;
 }
+
+
+
+
+
+
+
+
 #phone {
     margin-top: 0px;
     /* vertical-align: text-top; */
@@ -80,8 +89,9 @@ body {
         font-size: 1em;
         margin-right: 5px;
     }
+}
+@media (max-width:575px) {
     .panel-footer section {
-        margin-bottom: 30px;
         text-align: center;
     }
     .panel-footer section hr {
@@ -98,6 +108,13 @@ body {
     text-align: center;
     font-size: .7em;
 }
+
+
+
+
+
+
+
 .container .jumbotron {
     margin-top: 30px;
     padding: 0;
@@ -141,8 +158,13 @@ body {
     z-index: 2;
 }
 
+
+
+
+
+
 .panel-footer {
-    margin-top: 30px;
+    margin-top: 20px;
     padding-top: 35px;
     padding-bottom: 35px;
     background-color: #222;
@@ -171,4 +193,34 @@ body {
 }
 hr {
     border: 1px solid white;
+}
+
+
+
+
+.category-tile {
+    position: relative;
+    border: 2px solid #3f0c1f;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+.category-tile span {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 1.2em;
+    text-transform: capitalize;
+    background-color: #000;
+    opacity: .75;
+}
+.category-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+.menu-category {
+    margin-bottom: 15px;
 }
