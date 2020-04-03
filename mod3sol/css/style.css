@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: rgb(94, 94, 255);
+}
+.navbar-collapse {
+    background-color: rgb(255, 218, 218);
+}
+.content {
+    background-color: rgb(177, 255, 74);
+}
