@@ -21,7 +21,6 @@ $(function() {
     var show_loading = function(selector){
         var html = "<div class='text-center' style='margin:15px;'><img src='img/ajax-loader.gif'></div>";
         insert_html(selector, html);
-        console.log("laoding");
     };
 
     document.addEventListener("DOMContentLoaded", function (event) {
