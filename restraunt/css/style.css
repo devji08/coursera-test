@@ -36,6 +36,10 @@ body {
     vertical-align: middle;
     font-weight: 600;
 }
+
+#nav-button:focus {
+    outline: none;
+}
 #nav-list {
     margin-top: 10px;
 }

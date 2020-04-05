@@ -1,0 +1,6 @@
+[
+    {"id":"1","short_name":"B","name":"Break Fast"},
+    {"id":"2","short_name":"L","name":"Lunch"},
+    {"id":"3","short_name":"D","name":"Dinner"},
+    {"id":"4","short_name":"S","name":"Special"}
+]
