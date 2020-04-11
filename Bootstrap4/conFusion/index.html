@@ -6,10 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap-social.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- endbuild -->
 </head>
 
 <body>
@@ -28,7 +31,7 @@
                     <li class="nav-list"><a class="nav-link" href="contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
                 <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal">
+                    <a id="loginButton">
                     <span class="fa fa-sign-in"></span> Login</a>
                 </span>
             </div>
@@ -87,7 +90,7 @@
                             <img src="img/logo.png" class="img-fluid">
                         </div>
                         <div class="col-sm-6">
-                            <a role="button" class="btn btn-block btn-warning btn-sm" data-toggle="modal" data-target="#reservationmodal">Reserve Table</a>
+                            <a role="button" class="btn btn-block btn-warning btn-sm" id="reservationButton">Reserve Table</a>
                         </div>
                     </div>
                 </div>
@@ -95,7 +98,7 @@
         </div>
     </header>
 
-    <div id="reservationmodal" class="modal fade" role="dialog">
+    <div id="reservationModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="content">
             <div class="modal-content">
                 <div class="modal-header">
@@ -297,26 +300,12 @@
            </div>
         </div>
     </footer>
+    <!-- build:js js/main.js -->
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $("#mycarousel").carousel( { interval: 2000 } );
-            $("#carouselButton").click(function(){
-                if($('#carouselButton').children('span').hasClass('fa-pause')) {
-                    $('#mycarousel').carousel('pause');
-                    $('#carouselButton').children('span').removeClass('fa-pause');
-                    $('#carouselButton').children('span').addClass('fa-play');
-                }
-                else {
-                    $('#mycarousel').carousel('cycle');
-                    $('#carouselButton').children('span').removeClass('fa-play');
-                    $('#carouselButton').children('span').addClass('fa-pause');
-                }
-            });
-        });
-    </script>
+    <script src="js/script.js"></script>
+    <!-- endbuild -->
 </body>
 
 </html>
